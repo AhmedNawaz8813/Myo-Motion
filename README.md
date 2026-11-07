@@ -1,4 +1,4 @@
-# MyoMotion
+# MyoMotion (Still in the Development Phase)
 
 **BSCS Final Year Project — FAST-NUCES Peshawar**
 
