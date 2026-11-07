@@ -1,12 +1,14 @@
 # MyoMotion (Still in the Development Phase)
 
-**BSCS Final Year Project — FAST-NUCES Peshawar**
+Final Year Project 
 
-MyoMotion coaches users through exercises using only a phone camera. It checks posture, estimates per-muscle activation (%MVC) in each rep phase, and delivers corrective cues in real time.
+
+MyoMotion is an advanced biomechanical coaching platform that fuses computer vision and electromyography by deploying YOLO, MediaPipe pose tracking, and spine aware feature extraction on a standard 2D camera feed, utilising sEMG calibrated deep learning architectures, to perform high precision, phase segmented muscle activation estimation (%MVC) and deliver real-time causal corrective feedback.
+
+
 
 **Team:** Ahmed Nawaz · Aayan Sethi · Wajid Ali  
-**Supervisor:** Dr. Muhammad Amin  
-**Stage:** FYP-1 (mid-defense prep)
+
 
 ---
 
