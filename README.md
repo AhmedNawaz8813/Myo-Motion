@@ -60,5 +60,5 @@ Press **Q** to quit the live window.
 | Pose estimation | MediaPipe Pose Landmarker (Tasks API) |
 | Computer vision | OpenCV |
 | EMG hardware | Arduino Uno + 3× AD8226 modules |
-| ML target | %MVC regression (scikit-learn / PyTorch) |
+| ML target | %MVC regression (scikit-learn / PyTorch / Keras Tensorflow) |
 
