@@ -18,6 +18,13 @@ build/
 models/*.task
 models/*.tflite
 models/*.onnx
+models/*.pt
+
+# Dataset files (large, per-participant recordings)
+data/raw/
+data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Jupyter
 .ipynb_checkpoints/
