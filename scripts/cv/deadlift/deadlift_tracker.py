@@ -50,7 +50,8 @@ VIDEO_SOURCE = 0                                # Live camera mode
 # Paths
 # ---------------------------------------------------------------------------
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-_PROJECT_ROOT = os.path.dirname(os.path.dirname(_SCRIPT_DIR))
+# scripts/cv/deadlift/ → scripts/cv/ → scripts/ → project root
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(_SCRIPT_DIR)))
 MODEL_PATH = os.path.join(_PROJECT_ROOT, "models", "pose_landmarker_heavy.task")
 
 # ---------------------------------------------------------------------------

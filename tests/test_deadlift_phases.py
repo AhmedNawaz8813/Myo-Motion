@@ -13,7 +13,7 @@ import os
 import random
 import sys
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts", "cv"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts", "cv", "deadlift"))
 
 import deadlift_tracker as dt  # noqa: E402
 from deadlift_tracker import DeadliftStateMachine, Phase  # noqa: E402

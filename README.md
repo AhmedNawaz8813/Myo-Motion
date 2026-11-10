@@ -18,7 +18,8 @@ MyoMotion is an advanced biomechanical coaching platform that fuses computer vis
 MyoMotion/
 ├── scripts/
 │   ├── cv/                    # Computer vision pipeline (pose estimation, angles, spine)
-│   │   └── deadlift_tracker.py
+│   │   └── deadlift/
+│   │       └── deadlift_tracker.py
 │   ├── semg/                  # sEMG acquisition, MVC normalization, serial logger
 │   └── sync/                  # Video–sEMG synchronization (LED/timestamp alignment)
 ├── training/                  # Model training code, configs, evaluation scripts
@@ -59,7 +60,7 @@ pip install -r requirements.txt
 
 ```bash
 # Always run from the project root
-python scripts/cv/deadlift_tracker.py
+python scripts/cv/deadlift/deadlift_tracker.py
 ```
 
 Press **Q** to quit the live window.
