@@ -37,3 +37,7 @@ data/processed/
 *.log
 output/
 
+# Project context files (internal team docs, not for public repo)
+CLAUDE.md
+Context.md
+
